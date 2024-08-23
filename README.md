@@ -1,6 +1,6 @@
 # Birday
 
-An open source app to remember birthdays and events without having to open Facebook, set alarms or rely on Google Calendar.
+一个开源应用程序，无需打开 Facebook、设置闹钟或依赖 Google 日历即可记住生日和事件。
 
 <p align='center'>
   <a href='https://github.com/m-i-n-a-r/birday/blob/master/LICENSE.md'><img src='https://img.shields.io/badge/license-GPL 3-333333'/></a>
@@ -8,11 +8,10 @@ An open source app to remember birthdays and events without having to open Faceb
   <a title="Crowdin" target="_blank" href="https://crowdin.com/project/birday"><img src="https://badges.crowdin.net/birday/localized.svg"></a>
 </p>
 
-## Introduction
-This is an open source app to remember **birthdays** and other events in a fast, light and beautiful way. No less, no more. I had this idea considering that Google Calendar doesn't display an automatic notification the day of the birthday, and sometimes i need to remember a birthday for a person who is not in my Contacts. Also, adding too much events to the calendar makes it messy and i prefer to manage them separately. The main focus of this app is being easy to use, clean and lightweight. I'm always glad to add features, but only important and really useful features!
+##简介
+这是一款开源应用，可以快速、轻松、美观地记住**生日**和其他事件。不多不少。我之所以有这个想法，是因为谷歌日历不会在生日当天显示自动通知，有时我需要记住不在我的联系人中的人的生日。此外，在日历中添加太多事件会使日历变得混乱，我更喜欢单独管理它们。这款应用的主要重点是易于使用、干净和轻量。我总是很高兴添加功能，但只添加重要且真正有用的功能！
 
-## Translations (guide and info below, refer to [Crowdin](https://crwd.in/birday))
-
+## 翻译（以下指南和信息请参阅 [Crowdin](https://crwd.in/birday)）
 | LANGUAGE                | SPECIAL THANKS    | UPDATED BY                  |
 |:------------------------|:------------------|:----------------------------|
 | **English**             | myself            | ar-maged, Commenter25       |
@@ -44,40 +43,40 @@ This is an open source app to remember **birthdays** and other events in a fast,
 | **Finnish**             | manaryde          |                             |
 | **Turkish**             | Ömer Selim Öztürk |                             |
 
-## Features
-- Notification the day of the event (with selectable time and optional grouping for multiple events in the same day)
-- Additional notification up to 21 days before the event (multiple selections are possible)
-- Import from contacts or calendar (import on first launch, auto import on each launch option, selectable on conflict strategy)
-- Easily backup and restore your saved events!
-- Experimental CSV and JSON import/export
-- insert an event manually, just specifying a first name, an optional last name, an image and a date (with optional year)
-- Choose your favorite events to see detailed information about them and a countdown for each one
-- Tap on an event to see every possible detail and the available actions
-- The birthdays are also automagically backed up in cloud by Google Play Services when the app is installed from Play Store
-- A set of stats (zodiac, average age and much more) when more than 5 events are inserted
-- Easily delete, modify and share the saved events!
-- Each event has an handy note field
-- Easily hide the top cards to display the list in fullscreen
-- Main list organized by month or alphabetically
-- Quick glance row, to visualize the events in the next 10 days
-- Yearly overview screen (advanced mode available)
-- A nice searchbar and an event type selector
-- Quick apps launcher
-- Light, dark, Amoled black and system default theme
-- Full Material 3 / Monet support
-- Selectable accent (no app restart needed, 12 choices)
-- Shimmer effect (it can be disabled) and confetti, because why not
-- Name first or surname first choice
-- Notification only for favorite events
-- Hide and show images
-- Material 3 configurable widgets (minimal and complete)
-- Beautiful animations (and animated notification icon, both can be disabled, but if you do it, be aware that I hate you)
-- Multiwindow / freeform full support
-- Animated splashscreen and app intro, dynamic layouts and more
-- Small and optimized apk size
-- 30+ locales supported and counting!
+## 功能
+- 活动当天通知（可选择时间，并可选择对同一天的多个活动进行分组）
+- 活动前最多 21 天的额外通知（可选择多个）
+- 从联系人或日历导入（首次启动时导入、每次启动时自动导入、可选择冲突策略）
+- 轻松备份和恢复已保存的活动！
+- 实验性 CSV 和 JSON 导入/导出
+- 手动插入活动，只需指定名字、可选姓氏、图像和日期（可选年份）
+- 选择您最喜欢的活动以查看有关它们的详细信息以及每个活动的倒计时
+- 点击活动以查看所有可能的详细信息和可用的操作
+- 从 Play Store 安装应用时，Google Play 服务也会自动将生日备份到云端
+- 插入 5 个以上活动时显示一组统计数据（星座、平均年龄等）
+- 轻松删除、修改和分享已保存的活动！
+ - 每个事件都有一个方便的注释字段
+- 轻松隐藏顶部卡片以全屏显示列表
+- 按月或字母顺序排列的主列表
+- 快速浏览行，可视化未来 10 天的事件
+- 年度概览屏幕（高级模式可用）
+- 漂亮的搜索栏和事件类型选择器
+- 快速应用启动器
+- 浅色、深色、Amoled 黑色和系统默认主题
+- 完全支持 Material 3 / Monet
+- 可选重音（无需重启应用，12 种选择）
+- 闪光效果（可以禁用）和五彩纸屑，为什么不呢
+- 名字或姓氏第一选择
+- 仅通知收藏事件
+- 隐藏和显示图像
+- Material 3 可配置小部件（最小和完整）
+- 精美的动画（和动画通知图标，两者都可以禁用，但如果你这样做，请注意我讨厌你）
+- 多窗口/自由形式完全支持
+- 动画启动画面和应用简介、动态布局等
+- 小巧且优化 apk 大小
+- 支持 30 多个语言环境，并且还在不断增加！
 
-## Screenshots
+## 截图
 <p align='center'>
   <img src='https://i.imgur.com/UFMMkEu.png' width='19%'/>
   <img src='https://i.imgur.com/RvSy5y5.png' width='19%'/>
@@ -92,8 +91,8 @@ This is an open source app to remember **birthdays** and other events in a fast,
   <img src='https://i.imgur.com/k3UV8XG.png' width='19%'/>
 </p>
 
-## Download
-The app is available through Google Play and F-Droid\
+## 下载
+该应用可通过 Google Play 和 F-Droid 下载\
 \
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
@@ -102,18 +101,18 @@ The app is available through Google Play and F-Droid\
      alt="Get it on Google Play"
      height="80">](https://play.google.com/store/apps/details?id=com.minar.birday)
 
-## Credits and contributions
-Birday uses some open source libraries, just a few:
+## 致谢和贡献
+Birday 使用了一些开源库，仅举几例：
 - [TastiCalendar](https://github.com/m-i-n-a-r/tasticalendar)
 - [Konfetti](https://github.com/DanielMartinus/Konfetti)
 - [App Intro](https://github.com/AppIntro/AppIntro)
 - [Shimmer](https://github.com/facebook/shimmer-android)
 
-Top contributors (special thanks to them!):
-- [Alberto Pedron](https://github.com/Alberto97) for the precious advices and for contributing with many useful pull requests
-- [Dominik Novosel](https://github.com/DominikNovosel) for the suggestions, for supporting the project and for the LTS version
-- [Simone Sestito](https://github.com/simonesestito) for adding useful features and for being a great friend
+顶级贡献者（特别感谢他们！）：
+- [Alberto Pedron](https://github.com/Alberto97) 提供宝贵建议，并贡献了许多有用的拉取请求
+- [Dominik Novosel](https://github.com/DominikNovosel) 提供建议，支持项目并开发 LTS 版本
+- [Simone Sestito](https://github.com/simonesestito) 添加有用的功能并成为优秀的开发人员 朋友
 
-Currently, Birday supports the languages in the above table. If you want to translate the app in any other language or update an existing translation, just contact me or send a pull request: you'll be quoted both on Github and in the Play Store description. For a detailed guide on how to translate the app, refer to the [Wiki](https://github.com/m-i-n-a-r/birday/wiki/Translate-the-app)
+目前，Birday 支持上表中的语言。如果您想将应用程序翻译成其他语言或更新现有翻译，只需联系我或发送拉取请求：您将在 Github 和 Play Store 描述中被引用。有关如何翻译应用程序的详细指南，请参阅 [Wiki](https://github.com/m-i-n-a-r/birday/wiki/Translate-the-app)
 
-This app was written during my free time as a training. It was first published on May 1, 2020. Many good devs helped me understanding the best practices and they taught me a lot of useful tricks. A special thank to every contributor here and on Reddit. and God bless Stack Overflow.
+这个应用程序是我在空闲时间编写的，作为培训。它于 2020 年 5 月 1 日首次发布。许多优秀的开发人员帮助我了解最佳实践，他们教了我很多有用的技巧。特别感谢这里和 Reddit 上的每一位贡献者。上帝保佑 Stack Overflow。
